@@ -2,6 +2,7 @@
    Identidade e conteúdo fictícios. */
 :root{--teal:#2e7f8e;--teal-dark:#226977;--teal-deep:#16525f;--teal-light:#e8f2f3;--mint:#deeeec;--aqua:#80b3b9;--text:#1d4552;--muted:#637b83;--white:#fff;--pale:#f7f9f9;--line:#d9e4e6;--font-body:"DM Sans",sans-serif;--font-head:"Montserrat",sans-serif}
 *,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{margin:0;color:var(--text);background:#fff;font-family:var(--font-body);line-height:1.65;-webkit-font-smoothing:antialiased}
 body.dialog-open{overflow:hidden}
