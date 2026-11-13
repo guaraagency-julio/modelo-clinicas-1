@@ -55,9 +55,9 @@ p{line-height:1.78}
 .head-pill:hover{background:#ffffff22}
 .menu-button{display:none}
 .hero{min-height:600px;height:min(665px,70vw);position:relative;color:white;overflow:hidden;isolation:isolate;display:flex;align-items:center}
-.hero-image{position:absolute;inset:0;z-index:-2;background:#709fa4 url("https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=2050&q=87") center 38% /cover no-repeat;animation:hero-zoom 1.7s ease both}
+.hero-image{position:absolute;inset:0;z-index:-2;background:#709fa4 url("https://images.pexels.com/photos/3845627/pexels-photo-3845627.jpeg?auto=compress&cs=tinysrgb&w=1900") left center /115% auto no-repeat;animation:hero-zoom 1.7s ease both}
 .hero-shade{position:absolute;z-index:-1;inset:0;background:linear-gradient(90deg,#0c47598c 0%,#17647866 35%,#2c80822a 70%,#1d646317 100%)}
-.hero-layout{width:100%;padding:50px 0}
+.hero-layout{padding:50px 0}
 .hero-copy{max-width:555px;animation:hero-intro 1s .15s both}
 .hero-kicker{font-family:var(--font-head);font-weight:800;font-size:11px;letter-spacing:.14em;color:#e4fafa;display:block;margin-bottom:22px}
 .hero h1{max-width:540px;margin:0 0 30px;text-shadow:0 2px 18px #062d3540}
@@ -264,7 +264,7 @@ p{line-height:1.78}
  .logo-mark svg{width:44px;height:44px}
  .logo-type strong{font-size:23px}
  .hero{height:auto;min-height:640px}
- .hero-image{background-position:61% center}
+ .hero-image{background-size:cover;background-position:60% center}
  .hero-shade{background:linear-gradient(90deg,#134c5cce 0%,#164b58a8 43%,#144c584a 100%),linear-gradient(0deg,#1a5354a1,transparent 80%)}
  .hero-layout{padding:100px 0 105px}
  .hero-copy{max-width:440px}
